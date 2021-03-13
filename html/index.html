@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!--Title of page-->
+    <title>Efficient Money</title>
+
+    <!--Data about website description. Set default settings of html.-->
+    <meta name="description" content="a budget planning website" />
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+
+    <!--Link to css and font family.-->
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+</head>
+
+<body>
+    <!--Div (container) of the main and title of the page. Also considered logo of our site.-->
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <div id="logo_text">
+                    <h1><a href="index.html">Efficient<span class="logo_colour">Money</span></a></h1>
+                    <h2>Need help with finances? Let's get organized.</h2>
+                </div>
+            </div>
+            <div class="tabbed">
+                <ul>
+                    <!--Links to other pages in the from of list on click. When page is active, color change to indicate to user.-->
+                    <li onclick="window.location='./aboutUs.html'">About Us</li>
+                    <!--<li onclick="window.location='./dataTab.html'">Data Tables</li> -->
+                    <li onclick="window.location='./calendar.html'">Calendar</li>
+                    <li onclick="window.location='./articles.html'">Articles</li>
+                    <li onclick="window.location='./budget.html'">Budget Planning</li>
+                    <li onclick="window.location='./index.html'" class="active">Home</li>
+                </ul>
+            </div>
+        </div>
+        <!--Other containers for side bars and add ons. Text for alert box to user.-->
+        <div id="content_header "></div>
+        <div id="site_content">
+            <div id="banner"></div>
+            <div id="sidebar_container">
+                <div class="sidebar">
+                    <div class="sidebar_item">
+                        <h3>Alert!</h3>
+                        <h4>Potential changes in Plan</h4>
+                        <h5>March 1st, 2021</h5>
+                        <p>Your budget is in danger due to your newest over-spending.<br /><a href="#">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--Content of the home page.-->
+            <div id="content">
+                <h1>Welcome to the Efficient Money </h1>
+                <p>This is a budgeting website to show you different forms of your income.</p>
+                <h2>The plan</h2>
+                <p>These are the preferred steps in helping you build a proper budget.</p>
+                <ol>
+
+                    <!--List for user to follow.-->
+                    <li>Budget goals</li>
+                    <li>List out income and expenses.</li>
+                    <li>Data analysis (our help)</li>
+                    <li>Revise your plan</li>
+                    <li>Re-budget and talk to friends and family about it</li>
+                    <li>Have fun!</li>
+                </ol>
+            </div>
+        </div>
+        <div id="content_footer "></div>
+        <!--Footer of mini navigation bar.-->
+        <div id="footer">
+            <p><a href="index.html">Home</a> | <a href="budget.html">Budget Planning</a> | <a href="articles.html">Articles</a>  | <a href="calendar.html">Calendar</a> | <!-- <a href="dataTab.html">Data Tables</a> | --> <a href="aboutUs.html">About Us</a></p>
+            <p>Drexel CI Lab Project</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
